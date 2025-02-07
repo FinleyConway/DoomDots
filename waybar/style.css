@@ -29,14 +29,14 @@ window#waybar {
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: #63322E;
+    background: #F44336;
     border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #cdd6f4;
-    color: #11111b; 
+    background: #63322E;
+    color: #F44336; 
     border-radius: 10px;
 }
 
@@ -50,11 +50,11 @@ window#waybar {
 #workspaces,
 #tray,
 #backlight {
-    background: #1B1B1D;
+    background: #212121;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 5px;
-    border: 1px solid #871002;
+    border: 2px solid #EE4032;
 }
 
 #backlight {
@@ -67,7 +67,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: #1B1B1D;
+    background: #212121;
     border-radius: 10px;
     margin-left: 10px;
     padding-right: 0px;
