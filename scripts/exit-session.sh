@@ -3,7 +3,7 @@
 # exit options
 options="Shutdown\nReboot\nSleep\nHibernate\nLogout\nCancel"
 
-choice=$(echo -e "$options" | wofi --show dmenu --insensitive --prompt "Exit Session:")
+choice=$(echo -e "$options" | wofi -dmenu --show dmenu --insensitive --width=400 --heigh=300 --prompt "Exit Session:")
 
 case "$choice" in
     Shutdown)
